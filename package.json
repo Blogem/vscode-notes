@@ -218,7 +218,8 @@
 		"viewsWelcome": [
 			{
 				"view": "notes",
-				"contents": "To get started, you need to select a location to store your notes.\n[Select Location](command:Notes.setupNotes)"
+				"contents": "To get started, you need to select a location to store your notes.\n[Select Location](command:Notes.setupNotes)",
+				"when": "config.notes.notesLocation == ''"
 			}
 		]
 	},
